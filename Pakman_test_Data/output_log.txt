@@ -1,0 +1,74 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 645M (ID=0xfd9)
+    Vendor:   NVIDIA
+    VRAM:     1989 MB
+    Driver:   10.18.13.6900
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Virsh2016\Documents\Pakman\Pakman_test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Virsh2016\Documents\Pakman\Pakman_test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Virsh2016\Documents\Pakman\Pakman_test_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Virsh2016\Documents\Pakman\Pakman_test_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Virsh2016\Documents\Pakman\Pakman_test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Virsh2016\Documents\Pakman\Pakman_test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Virsh2016\Documents\Pakman\Pakman_test_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\Virsh2016\Documents\Pakman\Pakman_test_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Virsh2016\Documents\Pakman\Pakman_test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Virsh2016\Documents\Pakman\Pakman_test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Virsh2016\Documents\Pakman\Pakman_test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Virsh2016\Documents\Pakman\Pakman_test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Virsh2016\Documents\Pakman\Pakman_test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Virsh2016\Documents\Pakman\Pakman_test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\Virsh2016\Documents\Pakman\Pakman_test_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Virsh2016\Documents\Pakman\Pakman_test_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.026 seconds
+Platform assembly: C:\Users\Virsh2016\Documents\Pakman\Pakman_test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Virsh2016\Documents\Pakman\Pakman_test_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 2966x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 2.652121 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at NPCController.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NPCController.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: The Object you want to instantiate is null.
+  at UnityEngine.Object.CheckNullArgument (System.Object arg, System.String message) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Object.Instantiate (UnityEngine.Object original, Vector3 position, Quaternion rotation) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Object.Instantiate[Rigidbody] (UnityEngine.Rigidbody original, Vector3 position, Quaternion rotation) [0x00000] in <filename unknown>:0 
+  at CoinCreator.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NPCController.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NPCController.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 379c -> priority: 1 
+  Thread -> id: 1d00 -> priority: 1 
+NullReferenceException: Object reference not set to an instance of an object
+  at NPCController.OnCollisionEnter (UnityEngine.Collision other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NPCController.OnCollisionEnter (UnityEngine.Collision other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
